@@ -1,0 +1,70 @@
+body {
+    background-color: dimgray;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.wrapper {
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.firstcolor {
+    background-color: darkgrey;
+}
+
+.image {
+    width: 600px;
+}
+
+/* @media screen {
+    
+} */
+
+.title {
+    color: lightgreen;
+    margin-bottom: 10px;
+}
+
+.ice {
+    color: blue;
+    font-size: 35px;
+}
+
+.btn {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+}
+
+.highlight {
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+.light {
+    color: rgb(205, 169, 50);
+    margin-bottom: 10px;
+}
+
+.BOX {
+    background-color: rgb(40, 61, 59);
+    width: 400px;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    border: 5px solid #d5d4ca;
+}
