@@ -1,0 +1,62 @@
+GET https://gb.ru/ 
+###
+GET https://jsonplaceholder.typicode.com/todos/1
+# Ответ на JSON
+# {
+#   "userId": 1,
+#   "id": 1,
+#   "title": "delectus aut autem",
+#   "completed": false
+# }
+###
+POST https://jsonplaceholder.typicode.com/todos/
+
+Content-Type: application/json
+{
+"id": 5,
+"name": "Eugene"
+
+}
+
+# JSON 
+# {
+# 	"catalog": {
+# 		"book": [
+# 			{
+# 				"title": "Камил видит руками",
+# 				"author": "Томаш Малковски",
+# 				"pages": "146",
+# 				"Published_date": "2019",
+# 				"Price": "863"
+# 			},
+# 			{
+# 				"title": "Вероятности и неприятности",
+# 				"author": "Сергей Самойленко",
+# 				"pages": "134",
+# 				"Published_date": "2022",
+# 				"Price": "1055"
+# 			},
+# 			{
+# 				"title": "Когда жизнь сбивает с ног",
+# 				"author": "Расс Хэррис",
+# 				"pages": "80",
+# 				"Published_date": "2021",
+# 				"Price": "945"
+# 			},
+# 			{
+# 				"title": "Цветы в темноте",
+# 				"author": "Cестра Данг Нгием",
+# 				"pages": "124",
+# 				"Published_date": "2020",
+# 				"Price": "1027"
+# 			},
+# 			{
+# 				"title": "Стратегии перемен",
+# 				"author": "Джон Коттер",
+# 				"pages": "102",
+# 				"Published_date": "2022",
+# 				"Price": "1418"
+# 			}
+# 		]
+# 	}
+# }
